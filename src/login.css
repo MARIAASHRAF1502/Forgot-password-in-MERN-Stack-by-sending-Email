@@ -1,0 +1,77 @@
+.loginForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height: 550px;
+    margin-left: 500px;
+    margin-top:75px;
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.loginForm > p{
+    margin:20px;
+}
+
+.text1{
+    margin:10px;
+}
+
+.loginForm > [type="text"]{
+    width:300px;
+    height:40px;
+    padding-left: 10px;
+}
+
+.loginForm > input[type="text"]:focus{
+    outline-color: rgb(12, 197, 34);
+}
+
+
+
+.loginForm > [type="password"]{
+    width:300px;
+    height:40px;
+    padding-left: 10px;
+}
+
+.loginForm > input[type="password"]:focus{
+    outline-color: rgb(12, 197, 34);
+}
+
+.loginForm > [type="button"]{
+    color:#ffff;
+    margin-top:25px;
+    width:250px;
+    height:40px;
+    background-color:#4681f4;
+    border:0px solid black;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.loginForm > [type="button"]:hover{
+    background-color : #5783db;
+    cursor:pointer;
+}
+
+.msg{
+    background-color: rgb(255,243,205);
+    font-size: 18px;
+    color:rgb(133,100,4);
+    width:400px;
+    height:30px;
+    margin-top: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.navigator{
+    margin-top:10px;
+    text-align: right;
+    width:300px;
+    height:40px;
+}
